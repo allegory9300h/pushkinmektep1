@@ -1,0 +1,231 @@
+﻿		   body { 
+				background-color:#678FC2;
+				color:#666666;
+				font-family:Tahoma;
+				font-size:11px;
+				line-height:normal;
+				height:100%;
+				padding:0px;
+				margin:0px;
+			}
+
+
+			td {font-size:11px;}
+			a {color:#0560A6; text-decoration:none;}
+			a:hover {color:#0560A6; text-decoration:underline;}
+			/* Верхняя полоса */
+			#l1 td.header { height:24px; text-align:right; color:#FFFFFF; font-size:8pt; padding:3px 28px 0 0; font-weight:bold; }
+			
+			/* Полоса с логотипом */
+			#l2 { height:49px; background-image:url(/content/images/line-second-bg3.jpg); }
+			#l2 table.inner { width:100%; height:100%; }
+			#l2 td.left { width:29px; background-image:url(/content/images/line-second-bg1.jpg); }
+			#l2 td.center { font-size:8pt; color:#666666; line-height:1.3em; font-weight:bold; text-align:right; }
+			#l2 td.center div.links { float:right; padding:10px 0px 0 0; line-height:12pt; font-weight:bold; }
+			#l2 td.right { width:29px; background-image:url(/content/images/line-second-bg2.jpg); }
+			#logo { width:200px; height:36px; float:left; margin:10px 0 0 0; background-image:url(/content/images/line-second-logo.jpg); }
+			#logo_test { width:200px; height:36px; float:left; margin:10px 0 0 0; background-image:url(/Content/images/line-second-logo_test.jpg); }
+			#logo_rating { width:175px; height:34px; float:left; margin:10px 0 0 0; background-image:url(/Content/images/line-second-logo-rating.jpg); }
+			#logo_rating_ru { width:175px; height:34px; float:left; margin:10px 0 0 0; background-image:url(/Content/images/line-second-logo-rating_ru.jpg); }
+			#logo_rating_kz { width:175px; height:34px; float:left; margin:10px 0 0 0; background-image:url(/Content/images/line-second-logo-rating_kz.jpg); }
+			#logo_rating_en { width:175px; height:34px; float:left; margin:10px 0 0 0; background-image:url(/Content/images/line-second-logo-rating_en.jpg); }
+			
+			#l2 a {color:#666666;text-decoration:none;}
+			#l2 a:hover {text-decoration:underline;}			
+			
+			/* Полоса навигации */
+			#l3 { height:28px;}
+			#l3 table.inner { width:100%; height:100%; }
+			#l3 td.center	{ background-image:url(/content/images/line-third-bg1.jpg); padding-left:35px;}
+			
+			#l3 div.brk{background-image:url(/content/images/line-third-bg4.jpg);display:block;width:1px;height:100%; float:left;}
+			
+			#l3 a {text-align:center; float:left; display:block; color:#11449E; font-weight:bold; font-size:12px; text-decoration:none; height:28px; font-family:Arial;}
+			#l3 a div {float:left;display:block;cursor:pointer;}
+			#l3 a div.center {padding:8px 10px 0 10px;}
+			#l3 a div.left 	{width:3px;height:100%;}
+			#l3 a div.right {width:3px;height:100%;}
+			
+			#l3 a.active , #l3 a.active:hover { background-image:url(/content/images/line-third-bg7.jpg); }
+			#l3 a.active div.left , #l3 a.active:hover div.left{background-image:url(/content/images/line-third-bg5.jpg);}
+			#l3 a.active div.right , #l3 a.active:hover div.right {background-image:url(/content/images/line-third-bg6.jpg);}
+			
+			#l3 a:hover { background-image:url(/content/images/line-third-bg10.jpg); }
+			#l3 a:hover div.left {background-image:url(/content/images/line-third-bg9.jpg);}
+			#l3 a:hover div.right {background-image:url(/content/images/line-third-bg8.jpg);}
+			
+			/* Полоса инструментов */
+			#l4 {height:100%;}
+			#l4 table.inner {height:100%; width:100%; table-layout:fixed;}
+			#l4 td.center {background-color:#FFFFFF;background-image:url(/content/images/line-4-bg1.jpg);background-repeat:repeat-x;background-position:top;vertical-align:top;padding:4px 9px 4px 9px;}
+			
+			#test {height:91px;}
+			#test table.inner {height:100%; width:100%; table-layout:fixed;}
+			#test td.center {background-color:#FFFFFF;background-image:url(/content/images/line-9-bg3.jpg);background-repeat:repeat-x;background-position:top;vertical-align:top;padding:4px 9px 4px 9px;}
+			
+			#social {height:91px;}
+			#social table.inner {height:100%; width:100%; table-layout:fixed;}
+			#social table.inner {height:100%; width:100%; table-layout:fixed;}
+			#social td.center {background-color:#FFFFFF;background-image:url(/content/images/line-9-bg3.jpg);background-repeat:repeat-x;background-position:top;vertical-align:top;padding:4px 4px 4px 4px;}
+			
+				
+			
+			#inf { height:91px; width:100%; }
+			#inf2 { height:45px; width:100%; }
+			#inf td.left {background-image:url(/content/images/line-9-bg1.jpg); width:2px;}
+			#inf td.center {background-image:url(/content/images/line-9-bg3.jpg);padding:4px 0px 9px 3px}
+			#inf td.right {background-image:url(/content/images/line-9-bg2.jpg); width:2px;}	
+			#inf2 td.left {background-image:url(/content/images/line-9-bg1.jpg); width:2px;}
+			#inf2 td.center {background-image:url(/content/images/line-9-bg3.jpg);padding:4px 0px 0px 3px}
+			#inf2 td.right {background-image:url(/content/images/line-9-bg2.jpg); width:2px;}	
+						
+			#tools { min-height:78px; width:100%; }
+			#tools td.left {background-image:url(/content/images/line-9-bg1.jpg); background-size:auto 100%; width:2px;}
+			#tools td.center {background-image:url(/content/images/line-9-bg3.jpg); background-size:auto 100%; padding:4px 0px 9px 3px}
+			#tools td.right {background-image:url(/content/images/line-9-bg2.jpg); background-size:auto 100%; width:2px;}
+			
+			table.tool {height:100%;table-layout:fixed;float:left;margin-right:4px;color:#0560A6;font-size:11px;table-layout:fixed;}
+			table.tool td.top-left		{background-image:url(/content/images/line-9-bg4.png); width:2px;}
+			table.tool td.top-center	{background-image:url(/content/images/line-9-bg6-top.png); height:62px; padding:4px 6px 4px 6px;overflow:hidden;}
+			
+			table.tool ul {margin:0;padding:0 0 0 20px;}
+			table.tool li {line-height:12px;color:#FF9900;list-style-type:square;}		
+			table.tool td.top-right		{background-image:url(/content/images/line-9-bg5.png); width:2px;}
+			
+			table.tool td.bottom-left	{background-image:url(/content/images/line-9-bg4.jpg); width:2px;background-position:bottom}
+			table.tool td.bottom-center	{background-image:url(/content/images/line-9-bg6.jpg);background-position:bottom;text-align:center;font-size:9px;color:#4372B0;font-weight:bold; vertical-align:bottom; padding-bottom:3px;}
+			table.tool td.bottom-right	{background-image:url(/content/images/line-9-bg5.jpg); width:2px;background-position:bottom}
+			table.tool tr.bottom		{height:16px;}
+			
+			table.tool-hover td.top-center {background-image:url(/content/images/line-9-bg7.png);background-position:top;}
+			table.tool-hover td.bottom-center {background-image:url(/content/images/line-9-bg7.jpg);background-position:bottom;}
+			/* Подвал */
+			#l5 {height:75px;}
+			#l5 table.inner {table-layout:fixed;height:100%;width:100%;}
+			#l5 td.left		{width:15px;background-image:url(/content/images/line-7-bg1.jpg);}
+			#l5 td.center	{background-image:url(/content/images/line-7-bg3.jpg); vertical-align:top;}
+			#l5 td.right	{width:15px;background-image:url(/content/images/line-7-bg2.jpg);}
+			
+			#copyright {height:46px;width:100%;margin-top:10px;}
+			#copyright td.left		{background-image:url(/content/images/line-8-bg1.jpg); width:2px;}
+			#copyright td.center	{background-image:url(/content/images/line-8-bg3.jpg);font-size:8pt;padding-left:20px;line-height:14px;vertical-align:middle;}
+			#copyright td.right	{background-image:url(/content/images/line-8-bg2.jpg); width:2px;}
+			
+			
+			/* Общие для всех полос */
+			td.left		{ width:5px; background-image:url(/content/images/line-third-bg3.jpg); background-repeat:repeat-y; }			
+			td.right	{ width:5px; background-image:url(/content/images/line-third-bg2.jpg);background-repeat:repeat-y; }
+			table.inner {table-layout:fixed;height:100%;width:100%;}
+			
+			/* ========================================== */
+			
+            .hint-catalog { font-style: italic; }
+            
+            .catalog-input { width: 75% !important; }
+
+[data-title-bottom] {
+    position: relative;
+    opacity: 0.75;
+    filter: alpha(opacity=75); /* For IE8 and earlier */
+}
+
+    [data-title-bottom]:hover::before {
+        content: attr(data-title-bottom);
+        position: absolute;
+        bottom: -30px;
+        left: -3px;
+        display: inline-block;
+        padding: 3px 6px;
+        border-radius: 2px;
+        background: #000;
+        color: #fff;
+        font-size: 12px;
+        font-family: sans-serif;
+        white-space: nowrap;
+        opacity: 0.75;
+        filter: alpha(opacity=75); /* For IE8 and earlier */
+    }
+
+    [data-title-bottom]:hover::after {
+        content: '';
+        position: absolute;
+        bottom: -10px;
+        left: 0px;
+        display: inline-block;
+        color: #fff;
+        border: 8px solid transparent;
+        border-bottom: 8px solid #000;
+        opacity: 0.75;
+        filter: alpha(opacity=75); /* For IE8 and earlier */
+    }
+
+[data-title-right] {
+    position: relative;
+    opacity: 0.75;
+    filter: alpha(opacity=75); /* For IE8 and earlier */
+}
+
+    [data-title-right]:hover::before {
+        content: attr(data-title-right);
+        position: absolute;
+        left: 24px;
+        top: -2px;
+        display: inline-block;
+        padding: 3px 6px;
+        border-radius: 2px;
+        background: #000;
+        color: #fff;
+        font-size: 12px;
+        font-family: sans-serif;
+        white-space: nowrap;
+        opacity: 0.75;
+        filter: alpha(opacity=75); /* For IE8 and earlier */
+    }
+
+    [data-title-right]:hover::after {
+        content: '';
+        position: absolute;
+        left: 8px;
+        display: inline-block;
+        color: #fff;
+        border: 8px solid transparent;
+        border-right: 8px solid #000;
+        opacity: 0.75;
+        filter: alpha(opacity=75); /* For IE8 and earlier */
+    }
+
+[data-title-top] {
+    position: relative;
+    opacity: 0.75;
+    filter: alpha(opacity=75); /* For IE8 and earlier */
+}
+
+    [data-title-top]:hover::before {
+        content: attr(data-title-top);
+        position: absolute;
+        top: -30px;
+        left: -8px;
+        display: inline-block;
+        padding: 3px 6px;
+        border-radius: 2px;
+        background: #000;
+        opacity: 0.75;
+        filter: alpha(opacity=75); /* For IE8 and earlier */
+        color: #fff;
+        font-size: 12px;
+        font-family: sans-serif;
+        white-space: nowrap;
+    }
+
+    [data-title-top]:hover::after {
+        content: '';
+        position: absolute;
+        top: -10px;
+        left: 0px;
+        display: inline-block;
+        color: #fff;
+        border: 8px solid transparent;
+        border-top: 8px solid #000;
+        opacity: 0.75;
+        filter: alpha(opacity=75); /* For IE8 and earlier */
+    }

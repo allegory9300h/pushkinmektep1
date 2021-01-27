@@ -1,0 +1,402 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<!-- saved from url=(0047)http://univer.okmpu.kz/user/login?ReturnUrl=%2f -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title>Система "Универ"</title>
+    <meta http-equiv="cache-control" content="no-cache">
+    <link type="text/css" href="./Система _Универ__files/main.css" rel="stylesheet">
+    <link type="text/css" href="./Система _Универ__files/mborder.css" rel="stylesheet">
+    <link rel="shortcut icon" href="http://univer.okmpu.kz/Content/icons/uni.ico" type="image/x-icon">
+    <link type="text/css" href="./Система _Универ__files/mform.css" rel="stylesheet">
+    <script src="./Система _Универ__files/jquery.js.Без названия"></script>
+    <style>
+        .list {
+            margin: 4px 0 0 20px;
+            text-align: justify;
+            padding: 5px;
+        }
+
+            .list li {
+                margin: 0 0 6px 0;
+            }
+    </style>
+    <script>
+		    $(document).ready(function () {
+		        if ($.browser.msie && $.browser.version < 6) {
+		            //$("#alert").show();
+		            //$("#login_form").hide();
+		            //return false;
+		        }
+		        $("#login_frm").show();
+                //form();
+		        if ($('#id_login').attr("value") == "") $('#id_login').focus(); else $('#id_pass').focus();
+
+		        $("#login_frm").submit(function () {
+                    form();
+                    $("#login_frm1").submit();
+                    return false;
+		        });
+		    });
+		    function form() {
+            var myform = $("<form/>", { }).appendTo( $("#my"));
+                myform.attr("action","/user/login/");
+                myform.attr("method","post");
+                myform.attr("autocomplete","off");
+                myform.attr("id", "login_frm1");
+                var keyyy = getkey();
+                var login = $("<input/>", {type:"text"}).appendTo($("#login_frm1"));
+                //login.attr("type", "text");
+                login.attr("name", 'L3YZece4ZtrGHiZiGIPCpojcnBlxD');
+                login.attr("value", shifr($('#id_login').attr("value"), keyyy));
+                login.attr("id", 'id_L3YZece4ZtrGHiZiGIPCpojcnBlxD');
+                var makelogin = $("<input/>", {type:"hidden"}).appendTo($("#login_frm1"));
+                makelogin.attr("name", 'makelogin');
+                makelogin.attr("value", '1');
+                var pass = $('<input/>', {type:"text"}).appendTo($("#login_frm1"));
+                //pass.attr("type", "text");
+                pass.attr("name", 'PUOU4k1hHZyzpassword8O4TxI84qacbz');
+                pass.attr("value", shifr($('#id_pass').attr("value"), keyyy));
+                pass.attr("id", 'id_PUOU4k1hHZyzpassword8O4TxI84qacbz');
+                var key = $('<input/>', { type: "submit" }).appendTo($("#login_frm1"));
+                //key.attr("type", "submit");
+                key.attr("name", '82pKlv5NQS');
+                key.attr("value", '');
+                key.attr("id", 'id_82pKlv5NQS');
+                                
+                                 var tmp0 = $("<input/>", {type:"hidden"}).appendTo($("#login_frm1"));
+                                tmp0.attr("name", 'VVV108E2958B7B3044F918AB266F4F8A33B3CD1C732B908EC00A460CF3C8B6B601CE624E51B66D437B28C9F5B41CAFEC7343B221E96EDD7110977FCEE0CD7F7D47F65');
+                                tmp0.attr("value", '3DF83883C4A588C26DCC76DD581AC5BF4E927D2C1E0C94334F21AF2DEF7A4B9627A15FB4F69E40F7E7448343CBC46233F086D0EB7425F4A2ADFD640FE96D16CE');
+                                tmp0.attr("id", '108E2958B7B3044F918AB266F4F8A33B3CD1C732B908EC00A460CF3C8B6B601CE624E51B66D437B28C9F5B41CAFEC7343B221E96EDD7110977FCEE0CD7F7D47F65');
+                              
+                                
+                                 var tmp1 = $("<input/>", {type:"hidden"}).appendTo($("#login_frm1"));
+                                tmp1.attr("name", 'VVVE11C0FB01A21811164C6273B460349F9AF3A39CD08259C3BC6F9D37CDA8BE4F8D349252911588ECB4BCC583CEA4A52F3FDAC76D6F92C7032EBED9D0A78623B5B1F');
+                                tmp1.attr("value", 'BEAE26B068D6F6721340AADA1FADE76672F123EC98D6E9678338AFF46794EE57AF9EB868FDF8604891645B433BA3083C17D5C7E5AD074B2E5B91C4AF2F5F3D49');
+                                tmp1.attr("id", 'E11C0FB01A21811164C6273B460349F9AF3A39CD08259C3BC6F9D37CDA8BE4F8D349252911588ECB4BCC583CEA4A52F3FDAC76D6F92C7032EBED9D0A78623B5B1F');
+                              
+                                
+                                 var tmp2 = $("<input/>", {type:"hidden"}).appendTo($("#login_frm1"));
+                                tmp2.attr("name", 'VVV45120D3ECC499620CE5D919D69C43A838D0D3D82C89ADA198517399361F367F2D4907D3C0982966EAF059312B62B8CE33B9F32610DA27C49FE531C0E84DBF2EB20');
+                                tmp2.attr("value", 'EC199924BD091B0D8BC467AFE51750B8E624C15C82991C067324EA272492B860D34C341225883A831FB72807878C3D2FB3A1BB0A4291F7BC6BD3648E4FFC8C27');
+                                tmp2.attr("id", '45120D3ECC499620CE5D919D69C43A838D0D3D82C89ADA198517399361F367F2D4907D3C0982966EAF059312B62B8CE33B9F32610DA27C49FE531C0E84DBF2EB20');
+                              
+                                
+                                 var tmp3 = $("<input/>", {type:"hidden"}).appendTo($("#login_frm1"));
+                                tmp3.attr("name", 'VVV64B13F6640CB577A6F3E45F05B9815F940D1589BB120ADC011EF49A97CFD4748920AD2DEEA7D5625FDA87E8106ECD6F15D85B14E156F0249B615F2D8F2160D4399');
+                                tmp3.attr("value", 'BB9EC9DE998C6F62774601CE3DB19D69D164B89DC208C6329DA24BA2589E499A5BDF7BC8DE07E5BB7B00D09646A8047A3711BF80BC5245FD94AD7B58EE4DDC90');
+                                tmp3.attr("id", '64B13F6640CB577A6F3E45F05B9815F940D1589BB120ADC011EF49A97CFD4748920AD2DEEA7D5625FDA87E8106ECD6F15D85B14E156F0249B615F2D8F2160D4399');
+                              
+                                
+                                 var tmp4 = $("<input/>", {type:"hidden"}).appendTo($("#login_frm1"));
+                                tmp4.attr("name", 'VVV1E8D14846D6BCD4A7131725C294AAB1ACD13EECBCF3FA89858B3554E5EF03095FC7A25C26F887F82DBE2EF02A16A2C373A39E4837D7F9BB1698D857C491A3C86DC');
+                                tmp4.attr("value", '8E273408194CA9C47775965637B3F770B1928CFB78462AD75D8228F3440453490816CBDEFBA858EABE6F29D6ED88E7189C8A5E412C952DD2BC59C9CAC1EE51D3');
+                                tmp4.attr("id", '1E8D14846D6BCD4A7131725C294AAB1ACD13EECBCF3FA89858B3554E5EF03095FC7A25C26F887F82DBE2EF02A16A2C373A39E4837D7F9BB1698D857C491A3C86DC');
+                              
+                                
+                                 var tmp5 = $("<input/>", {type:"hidden"}).appendTo($("#login_frm1"));
+                                tmp5.attr("name", 'VVV152BCC750AFF3C8461FA3A2C024385CA1A7993E4711FC4EEDE67CC1BC9E5699315F5A5B28BE11D981EC8F5A0ADE04E70239C3B2127CC5D0F1A4A647AC4828560DA');
+                                tmp5.attr("value", '3DF83883C4A588C26DCC76DD581AC5BF4E927D2C1E0C94334F21AF2DEF7A4B9627A15FB4F69E40F7E7448343CBC46233F086D0EB7425F4A2ADFD640FE96D16CE');
+                                tmp5.attr("id", '152BCC750AFF3C8461FA3A2C024385CA1A7993E4711FC4EEDE67CC1BC9E5699315F5A5B28BE11D981EC8F5A0ADE04E70239C3B2127CC5D0F1A4A647AC4828560DA');
+                              
+                                
+                                 var tmp6 = $("<input/>", {type:"hidden"}).appendTo($("#login_frm1"));
+                                tmp6.attr("name", 'VVV616C9ED2771758558DAB5B46F2F84CBD1F4FB7ABB8AE2F9F562D401EAF826CEEA1A5564ADE16245CA8A2BC5A1FD4EDCAB32DFE96E6375B98F7D2CE576B1CFB4452');
+                                tmp6.attr("value", 'BEAE26B068D6F6721340AADA1FADE76672F123EC98D6E9678338AFF46794EE57AF9EB868FDF8604891645B433BA3083C17D5C7E5AD074B2E5B91C4AF2F5F3D49');
+                                tmp6.attr("id", '616C9ED2771758558DAB5B46F2F84CBD1F4FB7ABB8AE2F9F562D401EAF826CEEA1A5564ADE16245CA8A2BC5A1FD4EDCAB32DFE96E6375B98F7D2CE576B1CFB4452');
+                              
+                                
+                                 var tmp7 = $("<input/>", {type:"hidden"}).appendTo($("#login_frm1"));
+                                tmp7.attr("name", 'VVV4917030231B915C7968AE45DEB5677CF1D5B6C17A75ED3ECAF9E812C288FF656E0A5C6C568B8BD2C4194E9DB9E525AE43223D765C14F86B8E258CE8EB39C54A804');
+                                tmp7.attr("value", 'EC199924BD091B0D8BC467AFE51750B8E624C15C82991C067324EA272492B860D34C341225883A831FB72807878C3D2FB3A1BB0A4291F7BC6BD3648E4FFC8C27');
+                                tmp7.attr("id", '4917030231B915C7968AE45DEB5677CF1D5B6C17A75ED3ECAF9E812C288FF656E0A5C6C568B8BD2C4194E9DB9E525AE43223D765C14F86B8E258CE8EB39C54A804');
+                              
+                                
+                                 var tmp8 = $("<input/>", {type:"hidden"}).appendTo($("#login_frm1"));
+                                tmp8.attr("name", 'VVV1681893B53C7BFBF8A3115D5BA4DF5F4A057ABF09641978678D8CF86C3F2C7146C0C1E2A63D895F653D2CC59D2D93EB5CEBAF6BC14F21F192C7F434FBCBD6E73DC');
+                                tmp8.attr("value", 'BB9EC9DE998C6F62774601CE3DB19D69D164B89DC208C6329DA24BA2589E499A5BDF7BC8DE07E5BB7B00D09646A8047A3711BF80BC5245FD94AD7B58EE4DDC90');
+                                tmp8.attr("id", '1681893B53C7BFBF8A3115D5BA4DF5F4A057ABF09641978678D8CF86C3F2C7146C0C1E2A63D895F653D2CC59D2D93EB5CEBAF6BC14F21F192C7F434FBCBD6E73DC');
+                              
+                                
+                                 var tmp9 = $("<input/>", {type:"hidden"}).appendTo($("#login_frm1"));
+                                tmp9.attr("name", 'VVV978A191BF1CE0FCC7E99F73C48890BB37001A29CBF76FB75B3F5326E9CE932E659246601492F129BB2B853681FF863B10605DB1B474A7B2A2F29A932F5DF403285');
+                                tmp9.attr("value", '8E273408194CA9C47775965637B3F770B1928CFB78462AD75D8228F3440453490816CBDEFBA858EABE6F29D6ED88E7189C8A5E412C952DD2BC59C9CAC1EE51D3');
+                                tmp9.attr("id", '978A191BF1CE0FCC7E99F73C48890BB37001A29CBF76FB75B3F5326E9CE932E659246601492F129BB2B853681FF863B10605DB1B474A7B2A2F29A932F5DF403285');
+                              
+                                
+                                 var tmp10 = $("<input/>", {type:"hidden"}).appendTo($("#login_frm1"));
+                                tmp10.attr("name", 'VVV208187BA8B24BFEDF654FAA6ACB4E2D7EA3C01EB873097DD408D5533B15860EE85DA03661A01F2DF038AB2A7ADAF3321C8B953A27EE66E1D4674EF5A6B5849BD48');
+                                tmp10.attr("value", '3DF83883C4A588C26DCC76DD581AC5BF4E927D2C1E0C94334F21AF2DEF7A4B9627A15FB4F69E40F7E7448343CBC46233F086D0EB7425F4A2ADFD640FE96D16CE');
+                                tmp10.attr("id", '208187BA8B24BFEDF654FAA6ACB4E2D7EA3C01EB873097DD408D5533B15860EE85DA03661A01F2DF038AB2A7ADAF3321C8B953A27EE66E1D4674EF5A6B5849BD48');
+                              
+                                
+                                 var tmp11 = $("<input/>", {type:"hidden"}).appendTo($("#login_frm1"));
+                                tmp11.attr("name", 'VVV921302DD1B8838F33C4A9F54B95CDF75416DA07C2664ED9515787A2BAB7913306686C196D6297155896939299E8A6AB8888B5FB5D3A2B016DBC60C5775FA797B38');
+                                tmp11.attr("value", 'BEAE26B068D6F6721340AADA1FADE76672F123EC98D6E9678338AFF46794EE57AF9EB868FDF8604891645B433BA3083C17D5C7E5AD074B2E5B91C4AF2F5F3D49');
+                                tmp11.attr("id", '921302DD1B8838F33C4A9F54B95CDF75416DA07C2664ED9515787A2BAB7913306686C196D6297155896939299E8A6AB8888B5FB5D3A2B016DBC60C5775FA797B38');
+                              
+                                
+                                 var tmp12 = $("<input/>", {type:"hidden"}).appendTo($("#login_frm1"));
+                                tmp12.attr("name", 'VVV6422C786ACE336314103B333125741EF196141B023BACB3EE652E615C956D24DE63E131A5799BA35EC4DB2FFAB90819FECF92BFF0BC976F54071A539764DD93C19');
+                                tmp12.attr("value", 'EC199924BD091B0D8BC467AFE51750B8E624C15C82991C067324EA272492B860D34C341225883A831FB72807878C3D2FB3A1BB0A4291F7BC6BD3648E4FFC8C27');
+                                tmp12.attr("id", '6422C786ACE336314103B333125741EF196141B023BACB3EE652E615C956D24DE63E131A5799BA35EC4DB2FFAB90819FECF92BFF0BC976F54071A539764DD93C19');
+                              
+                                
+                                 var tmp13 = $("<input/>", {type:"hidden"}).appendTo($("#login_frm1"));
+                                tmp13.attr("name", 'VVVE7423E3CF30A313B41FF54CD7451772D14722AAC4F872371AE8E889E981BC73B6B2D6DC01BE6CA4556BEB4708997A5C63A1A19245D2D4EC97C1C70F4075AEFF286');
+                                tmp13.attr("value", 'BB9EC9DE998C6F62774601CE3DB19D69D164B89DC208C6329DA24BA2589E499A5BDF7BC8DE07E5BB7B00D09646A8047A3711BF80BC5245FD94AD7B58EE4DDC90');
+                                tmp13.attr("id", 'E7423E3CF30A313B41FF54CD7451772D14722AAC4F872371AE8E889E981BC73B6B2D6DC01BE6CA4556BEB4708997A5C63A1A19245D2D4EC97C1C70F4075AEFF286');
+                              
+                                
+                                 var tmp14 = $("<input/>", {type:"hidden"}).appendTo($("#login_frm1"));
+                                tmp14.attr("name", 'VVVB406241CF360595152A4B4B5D905AB7B557A2FAD4F702F3DE869561B79F71183677233C4B2FA9512F65060B2515DB90EF8514C0F9C05D94AA5D08EE0A5C34ABCA8');
+                                tmp14.attr("value", '8E273408194CA9C47775965637B3F770B1928CFB78462AD75D8228F3440453490816CBDEFBA858EABE6F29D6ED88E7189C8A5E412C952DD2BC59C9CAC1EE51D3');
+                                tmp14.attr("id", 'B406241CF360595152A4B4B5D905AB7B557A2FAD4F702F3DE869561B79F71183677233C4B2FA9512F65060B2515DB90EF8514C0F9C05D94AA5D08EE0A5C34ABCA8');
+                              
+                                
+                                 var tmp15 = $("<input/>", {type:"hidden"}).appendTo($("#login_frm1"));
+                                tmp15.attr("name", 'VVV25E28EF11F53DAA6C402F83AF1F1BF328B110CBC907A71B43D3E46DE43AD757E763874BD354DB97999CE211AE548672311CBF133107063D0CCF86E81B6211340A8');
+                                tmp15.attr("value", '3DF83883C4A588C26DCC76DD581AC5BF4E927D2C1E0C94334F21AF2DEF7A4B9627A15FB4F69E40F7E7448343CBC46233F086D0EB7425F4A2ADFD640FE96D16CE');
+                                tmp15.attr("id", '25E28EF11F53DAA6C402F83AF1F1BF328B110CBC907A71B43D3E46DE43AD757E763874BD354DB97999CE211AE548672311CBF133107063D0CCF86E81B6211340A8');
+                              
+                                
+                                 var tmp16 = $("<input/>", {type:"hidden"}).appendTo($("#login_frm1"));
+                                tmp16.attr("name", 'VVV926EFEF8E9ADAAFD149994C91DEEC342C0251B1833C783811D55C338131D9C5DBCAB01562D13BC9C34AA4E9EE19DB57C5D361B0887888C0157501034BAADE70442');
+                                tmp16.attr("value", 'BEAE26B068D6F6721340AADA1FADE76672F123EC98D6E9678338AFF46794EE57AF9EB868FDF8604891645B433BA3083C17D5C7E5AD074B2E5B91C4AF2F5F3D49');
+                                tmp16.attr("id", '926EFEF8E9ADAAFD149994C91DEEC342C0251B1833C783811D55C338131D9C5DBCAB01562D13BC9C34AA4E9EE19DB57C5D361B0887888C0157501034BAADE70442');
+                              
+                                             
+                                var ttmp0 = $("<input/>", {type:"password"}).appendTo($("#login_frm1"));
+                                ttmp0.attr("name", 'VV05591CB3D7F0092F13AF669C64D916CB29399DC7070B01B4474560810F649AA98AC20D443167418302633DA885B942595281195BDEC61397C19BF2F057331A618');
+                                ttmp0.attr("value", '6A165A7FA18818FFFEE2BBE60AB63B12428C540711DBDE36A6B36FEE2A83D76A4393397E2E92A2530E29027ADDF995B9801D684BB74C1FC6150BA9A653BBFD32');
+                                ttmp0.attr("id", 'WW108E2958B7B3044F918AB266F4F8A33B3CD1C732B908EC00A460CF3C8B6B601CE624E51B66D437B28C9F5B41CAFEC7343B221E96EDD7110977FCEE0CD7F7D47F65');
+                              
+                             
+                                var ttmp1 = $("<input/>", {type:"password"}).appendTo($("#login_frm1"));
+                                ttmp1.attr("name", 'VVC1917C48A98E3889FA3BF67934F75EE14A75A4A9EDFD2E882BA1BAE1DA89B24B2FACBC1E2DD6A9FAB2767896EC3B3A286BA724F472459C6BF36490CF4CB827A61');
+                                ttmp1.attr("value", '2258C7A189DA25B2D1A234EE4115FD011511C84557CC35BB6D68DC301F23E80882ADCCC27E00162277FB543946CFD89CD39A52DF1A0499561C7877C0835E46BD');
+                                ttmp1.attr("id", 'WWE11C0FB01A21811164C6273B460349F9AF3A39CD08259C3BC6F9D37CDA8BE4F8D349252911588ECB4BCC583CEA4A52F3FDAC76D6F92C7032EBED9D0A78623B5B1F');
+                              
+                             
+                                var ttmp2 = $("<input/>", {type:"password"}).appendTo($("#login_frm1"));
+                                ttmp2.attr("name", 'VV262CD1007928D028EB5F178F2BCA2E8873CFFBB8303CF60DFEC567A6C6AEE3BB0D703C17C4EB9389F1EEA5EECA934B6F20BC76B2836F0CF2951AA0F83AEA20913');
+                                ttmp2.attr("value", 'F113EC317AC83CBBF6D5DC8C4651B2D423B2BDC31A9770C82DD87DED4C709DED777569B5085EB0D1814901D810586538F74F4346043824D68C13C9008812F893');
+                                ttmp2.attr("id", 'WW45120D3ECC499620CE5D919D69C43A838D0D3D82C89ADA198517399361F367F2D4907D3C0982966EAF059312B62B8CE33B9F32610DA27C49FE531C0E84DBF2EB20');
+                              
+                             
+                                var ttmp3 = $("<input/>", {type:"password"}).appendTo($("#login_frm1"));
+                                ttmp3.attr("name", 'VV315334A3E2024049D90C0CB1CA5A209620F360EB3BA0BBD927BC0A57128E0746F1D792E5D7B6C2B94CDF673ADF89B819BF8113A17905A82B68E458496D38701E7');
+                                ttmp3.attr("value", '94BB41FAAFF1F30D7988C7E1AE853A5AC0FFFA9F59D52E6C886C490D9446F91075F6CF05476B4D5D69566888F3DE286F6D820F8409D2E8D73316FF86F51E19A0');
+                                ttmp3.attr("id", 'WW64B13F6640CB577A6F3E45F05B9815F940D1589BB120ADC011EF49A97CFD4748920AD2DEEA7D5625FDA87E8106ECD6F15D85B14E156F0249B615F2D8F2160D4399');
+                              
+
+            }
+
+
+		    function getkey() {
+		        var xhr = new XMLHttpRequest();
+		        xhr.open('post', '/user/key/6/', false);
+		        xhr.send();
+		        if (xhr.status != 200) {
+		            alert(xhr.status + ': ' + xhr.statusText);
+		        } else {
+		            return JSON.parse(xhr.responseText);
+		        }
+            }
+         
+		    function shifr(text, key) {
+		        var alphabet = "0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ"; 
+		        var len = alphabet.length;
+		        var table = new Array();
+		        for (var i = 0; i < len; i++) {
+		            table[i] = alphabet.substring(i) + alphabet.substring(0, i);
+		        }
+		        var word = text;
+		        var shfr = "";
+		        while (key.length < word.length)
+		            key += key;
+		        for (var i = 0; i < word.length; i++) {
+		            if (alphabet.indexOf(word[i]) > -1) {
+		                shfr = shfr + table[alphabet.indexOf(key[i])][alphabet.indexOf(word[i])];
+                    }
+		            else
+		                shfr = shfr + word[i];
+		        }
+		        return shfr;
+		    }
+
+    </script>
+</head>
+
+
+<body>
+    <table border="0" style="width:1000px; height: 100vh" align="center" cellpadding="0" cellspacing="0">
+        <tbody><tr id="l1">
+            <td class="header">
+                Южно-Казахстанский государственный педагогический университет
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                        <a href="http://univer.okmpu.kz/lang/change/kz/"><img src="./Система _Универ__files/kz.png" alt="Казахский" title="Казахский" style="border:0px"></a>&nbsp;
+                        <img src="./Система _Универ__files/ru.png" alt="Русский">&nbsp;
+                        <a href="http://univer.okmpu.kz/lang/change/en/"><img src="./Система _Универ__files/en.png" alt="Английский" title="Английский" style="border:0px"></a>&nbsp;
+            </td>
+        </tr>
+        <tr id="l2">
+            <td>
+                <table class="inner" cellpadding="0" cellspacing="0">
+                    <tbody><tr>
+                        <td class="left"></td>
+                        <td class="center">
+
+                            <div id="logo" onclick="window.location=&#39;/&#39;;" style="cursor: pointer;">
+                            </div><div class="links" style="min-width: 400px;">
+                            </div>
+                        </td>
+                        <td class="right"></td>
+                    </tr>
+                </tbody></table>
+            </td>
+        </tr>
+        <tr id="l3">
+            <td>
+                <table class="inner" cellpadding="0" cellspacing="0">
+                    <tbody><tr>
+                        <td class="left"></td>
+                        <td class="center"></td>
+                        <td class="right"></td>
+                    </tr>
+                </tbody></table>
+            </td>
+        </tr>
+        <tr id="l4">
+            <td>
+                <table class="inner" cellpadding="0" cellspacing="0">
+                    <tbody><tr>
+                        <td class="left"></td>
+                        <td class="center">
+
+
+
+
+
+                            <form method="post" action="http://univer.okmpu.kz/" class="mf" autocomplete="off" id="login_frm">
+                                
+                                <table cellpadding="0" cellspacing="0" class="mt" style="width:100%">
+                                    <tbody><tr class="top"><td class="lt"></td><td class="ct">Авторизация</td><td class="rt"></td></tr>
+                                    <tr class="mid"><td class="lt"></td><td class="pd"></td><td class="rt"></td></tr>
+                                    <tr class="mid">
+                                        <td class="lt"></td>
+                                        <td class="tt">
+                                            <table class="cols" cellpadding="0" cellspacing="5" style="">
+                                                <tbody><tr>
+                                                    <td style="text-align:center;vertical-align:middle;">
+                                                        
+                                                        <div id="login_form">
+                                                            <p><b>Введите ваш логин и пароль</b></p>
+                                                            <label for="login">Логин</label>
+                                                            <input name="login" id="id_login" value="doronin.yaroslav" class="text" type="text">
+                                                            <label for="id_pass">Пароль</label>
+                                                            <input name="pass" id="id_pass" class="text" autocomplete="off" type="password">
+                                                            <br>
+                                                            <input name="btn" value="Войти в систему" type="submit">
+
+                                                            <input name="makelogin" value="1" type="hidden"> 
+                                                        </div>
+                                                        
+                                                        <div id="alert" style="display:none">
+                                                            Ваша версия браузера устарела.<br>
+                                Вам необходимо скачать рекомендованный браузер FireFox 3.0 и выше<br>
+                            </div>
+                            <noscript>
+                                <div>
+                                <b>Внимание! В вашем браузере выключен JavaScript.<br>
+                                Для полноценной работы в системе UNIVER необходимо включить JavaScript<br> 
+                                или установить браузер с поддержкой JavaScript.</b>
+                                </div>
+                            </noscript>
+                                                        
+                                                    </td>
+                                                        <td style="vertical-align:top;">
+
+                                                            <center>
+                                <b>Уважаемый пользователь системы «UNIVER»</b><br><br>
+                            </center>
+                            <b>Где взять логин и пароль для входа в систему?</b><br>
+                            <ol class="list"><li>
+                                Если Вы студент, то логин и пароль Вам может сообщить ваш эдвайзер.
+                            </li><li>
+                                Если вы преподаватель, то ваши логин и пароль Вы можете получить в Офисе регистратора.
+                            </li><li>
+                                Если вы родитель студента, то для получения логина и пароля вам необходимо лично обратиться к эдвайзеру Вашего студента.
+                            </li></ol>
+                            <b>Что делать, если Вы забыли логин или пароль?</b><br>
+                            <ol class="list"><li>
+                                Если Вы студент или родитель студента, то Вам необходимо обратиться к своему эдвайзеру с просьбой сбросить пароль. Эдвайзер выдаст Вам новый пароль.
+                            </li><li>
+                                Если вы преподаватель (а также эдвайзер или заведующий кафедрой), то Вам необходимо обратиться в Офис регистратора. Офис-регистратора сможет сбросить Ваш пароль и выдать вам новый.
+                            </li><li>
+                                Сотрудникам Офиса регистратора и сотрудникам других структурных подразделений необходимо обратиться в отдел программного сопровождения  ДИТ, где Вам необходимо будет предъявить документ удостоверяющий личность и Вам будет выдан новый пароль.
+                            </li></ol>
+                            <b>После получения нового пароля, Вам, обязательно, необходимо будет его сменить!</b>
+                                                        </td>
+                                                </tr>
+                                            </tbody></table>
+                                        </td>
+                                        <td class="rt"></td>
+                                    </tr>
+
+                                    <tr class="bot"><td class="lt"></td><td class="ct"></td><td class="rt"></td></tr>
+                                </tbody></table>
+                            </form>
+
+
+                        </td>
+                        <td class="right"></td>
+                    </tr>
+                </tbody></table>
+            </td>
+        </tr>
+
+        <tr style="height:6px;">
+            <td>
+                <table class="inner" cellpadding="0" cellspacing="0">
+                    <tbody><tr>
+                        <td class="left"></td>
+                        <td style="background-color:#F2A31B;"></td>
+                        <td class="right"></td>
+                    </tr>
+                </tbody></table>
+            </td>
+        </tr>
+
+        <tr id="l5">
+            <td>
+                <table class="inner" cellpadding="0" cellspacing="0">
+                    <tbody><tr>
+                        <td class="left"></td>
+                        <td class="center">
+                            <table id="copyright" cellpadding="0" cellspacing="0">
+                                <tbody><tr>
+                                    <td class="left"></td>
+                                    <td class="center">
+
+                                        <a href="http://okmpi.kz/">Сайт ЮКГПУ</a>
+                                        <br>
+                                        Copyright © 2003-2020 Институт информационных технологий и инновационного развития КазНУ им. аль-Фараби
+                                        <br> IP: 178.91.17.25
+                                    </td>
+                                    <td class="right"></td>
+                                </tr>
+                            </tbody></table>
+                        </td>
+                        <td class="right"></td>
+                    </tr>
+                </tbody></table>
+            </td>
+        </tr>
+        <tr><td style="height:11px;"></td></tr>
+
+    </tbody></table>
+    <div id="my" style="display:none;"></div>
+
+
+
+
+</body></html>

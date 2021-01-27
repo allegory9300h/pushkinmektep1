@@ -1,0 +1,66 @@
+﻿/* Стиль оформления Content блоков      */
+table.mt { padding:0px; margin:0px; width:100%; font-size: 11px; font-family: tahoma,arial,helvetica,sans-serif; margin:10px 0 10px 0;}
+
+/* Заголовок внешнего блока             */
+table.mt tr.top td	        {width:6px; height:23px;}
+table.mt tr.top	td.lt	    {width:6px; background:url('/content/images/mt/top-left.gif'); }
+table.mt tr.top	td.ct	    {width:auto; background:url('/content/images/mt/top-center.gif'); color:#15428B;  font-weight: bold; -moz-user-select:none; -khtml-user-select:none; }	
+table.mt tr.top	td.rt	    {width:6px; background:url('/content/images/mt/top-right.gif'); }
+table.mt tr.top	td.message  {color:Green;}
+table.mt tr.top	td.warning  {color:Red;}
+
+/* Внутренний блок. Разделитель.        */
+table.mt tr.brk td	    {width:6px; height:23px;}
+table.mt tr.brk	td.lt	{width:6px; background:url('/content/images/mt/middle-left.gif'); }
+table.mt tr.brk	td.ct	{width:auto; background:url('/content/images/mt/brk-center.gif'); border-left:1px solid #99BBE8; border-right:1px solid #99BBE8; padding-left:6px;  color:#15428B;  font-weight: bold; -moz-user-select:none; -khtml-user-select:none; }	
+table.mt tr.brk	td.rt	{width:6px; background:url('/content/images/mt/middle-right.gif'); }	
+
+/* Внутренний блок. Панель инструментов. */
+table.mt tr.mid	td.ts           {background-color:#D9E8FB;}
+table.mt tr.mid	td.ts a         {padding:3px 5px 3px 5px; margin:3px 0 3px 0; display:block; color:Black; text-decoration:none;border:1px solid #D9E8FB;}
+table.mt tr.mid	td.ts a:hover   {background:url('/content/images/mt/ts-hover.gif'); border:1px solid #99BBE8;}
+table.mt tr.mid	td.ts a.rt	    {float:right;}
+table.mt tr.mid	td.ts a.lt	    {float:left; text-align:right;}
+table.mt tr.mid	td.ts	        {height:25px; width:auto;padding-right:5px; color:Black;}
+table.mt td.ts a img            {border:0; margin:0 3px -2px 0;}
+
+/* Внутренний блок 2 уровня. Панель инструментов. */
+table.mt tr.mid2	td.ts           {background-color:#D9E8FB; border-left:1px solid #99BBE8; border-right:1px solid #99BBE8;padding-left:6px;}
+table.mt tr.mid2	td.ts a         {padding:3px 5px 3px 5px; margin:3px 0 3px 0; display:block; color:Black; text-decoration:none;border:1px solid #D9E8FB;}
+table.mt tr.mid2	td.ts a:hover   {background:url('/content/images/mt/ts-hover.gif'); border:1px solid #99BBE8;}
+table.mt tr.mid2	td.ts a.rt	    {float:right;}
+table.mt tr.mid2	td.ts a.lt	    {float:left; text-align:right;}
+table.mt tr.mid2	td.ts	        {height:25px; width:auto;padding-right:5px; color:Black;}
+table.mt tr.mid2	td.lt		    {width:6px; background:url('/content/images/mt/middle-left.gif');}
+table.mt tr.mid2	td.rt			{background:url('/content/images/mt/middle-right.gif');}	
+
+
+/* Внутренний блок. Панель инструментов. */
+table.mt tr.mid	td.ts1           {background-color:white; vertical-align: top;}
+table.mt tr.mid	td.ts1 a         {padding:3px 3px 3px 3px; margin:3px 0 3px 0; display:block; color:Black; text-decoration:none;border:1px solid #D9E8FB;}
+table.mt tr.mid	td.ts1 a:hover   {background:url('/content/images/mt/ts-hover.gif'); border:1px solid #99BBE8;}
+table.mt td.ts1 a img            {border:0; margin:0 3px -2px 0;}
+table.mt tr.mid	td.ts1 a.rt	    {float:right;}
+table.mt tr.mid	td.ts1 a.lt	    {float:left; text-align:right;}
+
+
+
+
+/* Внутренний блок. Контент.            */
+table.mt tr.mid	td.lt	    {width:6px; background:url('/content/images/mt/middle-left.gif');}
+table.mt tr.mid	td.ct	    {vertical-align: top; width:auto; border:1px solid #99BBE8; padding:5px; background-color:#F1F1F1; color:#000000;}	
+table.mt tr.mid	td.tt	    {background-color:#D9E8FB; width:6px; vertical-align: top; width:auto; border:1px solid #99BBE8; padding:0px;}
+table.mt tr.mid	td.rt	    {width:6px; background:url('/content/images/mt/middle-right.gif');}	
+table.mt tr.mid	td.pd	    {height:6px; width:auto;background-color:#D9E8FB;}
+table.mt tr.mid	td.message  {color:Green; background-color:#FFFFFF;}
+table.mt tr.mid	td.warning  {color:Red; background-color:#FFFFFF;}
+
+/* Внутренний блок. Панель статуса.     */
+table.mt tr.mid	td.tb	    {height:25px; border:1px solid #99BBE8; border-top:0px; background:url('/content/images/mt/tools-center.gif'); width:auto; padding:0 6px 0 6px; color:#666666;}
+table.mt tr.mid	td.tb a img {border:0px;margin:0 2px -2px 2px;}
+
+/* Подвал внешнего блока                */
+table.mt tr.bot td {width:6px; height:6px;}
+table.mt tr.bot	td.lt	{background:url('/content/images/mt/bottom-left.gif');}
+table.mt tr.bot	td.ct	{background:url('/content/images/mt/bottom-center.gif'); width:auto;}	
+table.mt tr.bot	td.rt	{background:url('/content/images/mt/bottom-right.gif');}		
